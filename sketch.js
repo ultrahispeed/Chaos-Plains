@@ -19,4 +19,7 @@ function playerMovement(){
   if(keyDown(w)){
     player.x=player.x+5;
   }
+  if(keyDown(s)){
+   player.x=player.x-5; 
+  }
 }
